@@ -1,0 +1,16 @@
+@"
+env/
+__pycache__/
+*.pyc
+data/dataset.csv
+modele/*.mod
+modele/*.pkl
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.png
+*.jpg
+*.jpeg
+.ipynb_checkpoints/
+"@ | Out-File .gitignore -Encoding utf
